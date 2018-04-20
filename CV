@@ -1,0 +1,121 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage[colorlinks]{hyperref}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{\Huge Haozhe Su} \\
+\indent Room , East Campus \hfill Email:\href{username@example.com}{ {\color{black}\textbf{username@example.com}}} \\
+\indent University of Science \& Technology of China \hfill Mobile No.: \textbf{+86 00000000000}\\
+\indent \#96 Jinzhai RD, Hefei, Anhui, 230026, P.R.China\\
+
+
+\resheading{\textbf{\large EDUCATION} }\\[\lsep]
+\\ \\
+\indent \textbf{University of Science and Technology of China}(USTC) \hfill Hefei, China
+ \begin{itemize}\itemsep \isep
+	\item B.S. in Nuclear and Particle Physics, School of Physical Sciences \hfill \emph{Aug. 2014-(expected) Jun. 2018}
+	\item GPA: 0.00/4.30 or 00.00/100.00
+	\end{itemize}
+\\ \\
+
+\resheading{\textbf{\large RESEARCH EXPERIENCES} }\\[\lsep]
+\begin{itemize}\itemsep \isep
+\item  \textbf{Study of Uniform Magnetic Field in the Prototype 3D Magnet\href{http://home.ustc.edu.cn/~username/file}{{\color{blue}\emph{ (Presentation)}}} \\Summer Research Program, University of Tennessee, Knoxville} \hfill \emph{June. 2017- Aug. 2017} \\ \textbf{\emph{Advisor}: Prof.Dr.Yuri Kamyshkov}}
+  \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+     \item Examined the prototype 3-D magnet for future study of mirror neutrons.
+	 \item Performed calculations of 3-D magnetic field in developed C++ code, with environmental magnetic field measured and subtracted.
+     \item Analyzed magnet performance data and compared them to calculation results.
+     \item Examined measurement errors and found their sources.
+	 \end{itemize}
+\item \textbf{Study of} \textbf{J/\psi \rightarrow {\gamma}{K$_s$}{K$_s$}{\pi$^0$}} \textbf{Using Data Collected With BESIII Detectors\href{http://home.ustc.edu.cn/~username/file}{{\color{blue}\emph{ (Presentation)}}} \\Department of Modern Physics, USTC} \hfill \emph{Feb. 2017- Oct. 2017} \\ \textbf{\emph{Advisor}: A/Prof.Dr.Yingchun Zhu}
+  \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	 \item Implemented event selections, background estimations and signal fitting.
+     \item Made comparisons between data and M-C simulation results.
+\end{itemize}
+
+\item \textbf{Energy Regeneration System Based on Piezoelectric Effect \href{http://home.ustc.edu.cn/~username/file}{{\color{blue}\emph{ (Presentation)}}}  \\ Electronic Circuit Laboratory, USTC} \hfill \emph{Sept. 2016- Dec. 2016} \\ \textbf{\emph{Advisor}: A/Prof.Dr.Xiantao Wei}
+}  \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Selected proper material(PZT) and chose its shape and size.
+    \item Decided an appropriate way to support the PZT pieces and designed an integration system, which was a device that accomplished triggering, energy conversion and storage.
+    \item Calculated the power that it produced when we exerted a certain force on it.
+	\end{itemize}\\
+
+\item \textbf{Neutron-Transport Simulation Using M-C Method\\Department of Modern Physics, USTC} \hfill \emph{Nov. 2016} \\ \textbf{\emph{Advisor}: Prof.Dr.Renyou Zhang}
+  \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	 \item Utilized Direct Simulation Monte Carlo Method (DSMC) and the Improved Monte Carlo Method(Weighted Method) to simulate the movement of neutrons.
+     \item Calculated transmittance and energy distribution of transmitted neutrons.
+	 \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{\large ACADEMIC HONORS \& REWARDS} }\\[\lsep]
+\begin{itemize}
+\item Institute of High Energy Physics Scholarship	\hfill \emph{Apr. 2017}
+\item Excellent Student Scholarship     \hfill \emph{Sept. 2015/Sept. 2016/Sept. 2017}
+\item Third Prize in the Optics Paper Competition \hfill \emph{Dec. 2015}
+\item Third Prize in the 2014 National English Competition for College Students \hfill \emph{Oct. 2014}
+\item Outstanding Freshman Scholarship \hfill \emph{Sept. 2014}
+\end{itemize}
+
+\resheading{\textbf{\large STANDARDIZED TESTS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{GRE General}: \textbf{000} (Quantitative Reasoning)+\textbf{000} (Verbal Reasoning)+\textbf{0.0} (Analytical Writing)
+%\item \textbf{GRE Physics Subject}: \textbf{}/990 (\%below)
+\item \textbf{TOEFL iBT}: \textbf{00} (Reading)+\textbf{00} (Writing)+\textbf{00} (Listening)+\textbf{00} (Speaking)=\textbf{000}
+\end{itemize}
+\newpage
+\resheading{\textbf{\large SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Familiar with} SpectraMag-6, Origin, C/C++, Maya, Java, CERN Root, \LaTeX{}
+\end{itemize}
+
+\resheading{\textbf{\large STUDENT WORK \& ACTIVITIES} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Assistant} of 2016 Undergraduate Recruitment of USTC. \hfill \emph{Jun. 2016}
+\item \textbf{Member} of 3-D Animation \& Special Effects Group.\href{http://home.ustc.edu.cn/~shz/Maya.pdf}{ {\color{blue}\emph{ (Works)}}} \hfill \emph{Sept. 2015-Jan. 2016}
+\item \textbf{Member} of Basketball Team of School of Physical Sciences. \hfill \emph{Mar. 2015-Present}
+\item \textbf{Member} of the Art of Pottery Group.\href{http://home.ustc.edu.cn/~shz/Pottery.pdf}{ {\color{blue}\emph{ (Works)}}} \hfill \emph{March. 2015-Present}
+\item \textbf{Member} of Propaganda Department of Association of Scientific Expedition of USTC. \hfill \emph{Sept. 2014-Present}
+\end{itemize}
+\end{document}
+
